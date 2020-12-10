@@ -2,8 +2,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-
-/*вивести всіх акторів які народилися в даному місці вивести всіх акторів які народилися проміжку від і до відсортувати список акторів по прізвищу імені*/
 public class Film {
     public enum Genre {
         FEATUREFILM, ACTION, ADVENTURE, COMEDY, DRAMA, HORROR, FANTASY;

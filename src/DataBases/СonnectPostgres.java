@@ -3,12 +3,10 @@ package DataBases;
 import java.sql.DriverManager;
 import java.sql.Connection;
 import java.sql.SQLException;
-//scram-sha-256
-
 
 public class СonnectPostgres {
 
-    private static final String DB_URL = "jdbc:postgresql://127.0.0.1:5432/postgres";
+    private static final String DB_URL = "jdbc:postgresql://127.0.0.1:5432/lab5";
     private static final String USER = "postgres";
     private static final String PASS = "12345";
 
